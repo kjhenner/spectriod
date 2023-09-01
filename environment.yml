@@ -1,0 +1,11 @@
+name: spectriod
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - opencv-python
+    - librosa
+    - Pillow
+    - numpy
